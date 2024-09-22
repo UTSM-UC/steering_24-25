@@ -2,7 +2,6 @@
 #include <mcp2515.h>
 
 struct can_frame canMsg1;
-struct can_frame canMsg2;
 MCP2515 mcp2515(10);
 
 void setup() {
@@ -17,17 +16,6 @@ void setup() {
   canMsg1.data[6] = 0xBE;
   canMsg1.data[7] = 0x86;
 
-  canMsg2.can_id = 0x036;
-  canMsg2.can_dlc = 8;
-  canMsg2.data[0] = 0x0E;
-  canMsg2.data[1] = 0x00;
-  canMsg2.data[2] = 0x00;
-  canMsg2.data[3] = 0x08;
-  canMsg2.data[4] = 0x01;
-  canMsg2.data[5] = 0x00;
-  canMsg2.data[6] = 0x00;
-  canMsg2.data[7] = 0xA0;
-
   while (!Serial);
   Serial.begin(115200);
 
@@ -40,7 +28,6 @@ void setup() {
 
 void loop() {
   mcp2515.sendMessage(&canMsg1);
-  mcp2515.sendMessage(&canMsg2);
 
   Serial.println("Messages sent");
 
