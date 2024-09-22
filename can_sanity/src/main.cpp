@@ -34,6 +34,7 @@ void setup() {
   mcp2515.reset();
   mcp2515.setBitrate(CAN_125KBPS);
   mcp2515.setNormalMode();
+  pinMode(5, OUTPUT);
 
   Serial.println("Example: Write to CAN");
 }
@@ -44,5 +45,10 @@ void loop() {
 
   Serial.println("Messages sent");
 
-  delay(100);
+  digitalWrite(5, HIGH);
+  delay(50);
+  digitalWrite(5, LOW);
+  delay(50);
+
+  // delay(100);
 }
