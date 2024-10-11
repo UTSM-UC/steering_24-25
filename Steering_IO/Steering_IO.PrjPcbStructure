@@ -1,0 +1,2 @@
+Record=TopLevelDocument|FileName=TopLevel.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=TopLevel.SchDoc|Designator=I/O|SchDesignator=I/O|FileName=Steering_IOSch.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Steering_IOSch.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
