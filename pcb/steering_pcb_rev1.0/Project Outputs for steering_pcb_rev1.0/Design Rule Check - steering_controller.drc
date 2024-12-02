@@ -1,18 +1,18 @@
 Protel Design System Design Rule Check
-PCB File : \\VSRV1\A.Homes$\singhrh5\Documents\UTSM\SteeringPCB\steering_24-25\pcb\steering_pcb\steering_controller.PcbDoc
-Date     : 12/1/2024
-Time     : 2:57:01 PM
+PCB File : C:\Users\syeda\OneDrive\Documents\UTSM\steering_24-25\pcb\steering_pcb_rev1.0\steering_controller.PcbDoc
+Date     : 2024-12-01
+Time     : 10:07:35 PM
+
+Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Top Layer')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Bottom Layer')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -60,4 +60,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
