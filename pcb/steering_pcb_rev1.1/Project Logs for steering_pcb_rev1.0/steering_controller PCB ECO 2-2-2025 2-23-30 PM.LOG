@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=J1 Old Footprint=CON_39281103 New Footprint=FP-0039281043-MFG
+Change Component Footprint: Designator=J8 Old Footprint=FP-0039281043-MFG New Footprint=FP-0039281043-MFG
+Change Component Footprint: Designator=J9 Old Footprint=FP-0039281043-MFG New Footprint=FP-0039281043-MFG
+Added Pin To Net: NetName=D9/CS1 Pin=J8-1
+Added Pin To Net: NetName=D12/MISO Pin=J8-2
+Added Pin To Net: NetName=D13/SCK Pin=J8-3
+Added Pin To Net: NetName=5V Pin=J9-1
+Added Member To Class: ClassName=I/O Member=Component J8 Hazard
+Added Member To Class: ClassName=I/O Member=Component J9 Hazard

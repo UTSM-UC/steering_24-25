@@ -1,0 +1,81 @@
+Protel Design System Design Rule Check
+PCB File : \\VSRV1\A.Homes$\singhrh5\Documents\UTSM\SteeringPCB\steering_24-25\pcb\steering_pcb\steering_controller.PcbDoc
+Date     : 12/1/2024
+Time     : 1:42:53 PM
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.203mm) (OnLayer('Bottom Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.203mm) (OnLayer('Top Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+   Violation between Width Constraint: Track (18.505mm,38.607mm)(19.036mm,38.125mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (19.036mm,38.125mm)(26.9mm,31mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (19mm,10mm)(25mm,4mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (25mm,4mm)(48.2mm,4mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (26.9mm,31mm)(32.009mm,25.891mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (32.009mm,25.862mm)(32.009mm,25.891mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (32.009mm,25.862mm)(37.871mm,20mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (37.871mm,20mm)(48.2mm,20mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (40.5mm,14.5mm)(48.2mm,14.5mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (48.2mm,14.5mm)(48.2mm,20mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (48.2mm,20mm)(48.2mm,25mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (48.2mm,25mm)(53.5mm,30.3mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (48.2mm,4mm)(48.2mm,14.5mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (48.2mm,4mm)(59mm,4mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (59mm,4mm)(61.1mm,6.1mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (61.1mm,11.95mm)(67.692mm,18.542mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (61.1mm,6.1mm)(61.1mm,11.95mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (67.692mm,18.542mm)(69.85mm,18.542mm) on Top Layer Actual Width = 1mm, Target Width = 0.254mm
+Rule Violations :18
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.13mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 18
+Waived Violations : 0
+Time Elapsed        : 00:00:01
